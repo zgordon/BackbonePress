@@ -1,0 +1,38 @@
+[
+  {
+    "id":6,
+    "date":"2016-01-18T22:05:09",
+    "modified":"2016-01-18T22:05:09",
+    "slug":"home",
+    "type":"page",
+    "title":"Home",
+    "content":"Welcome to VanillaPress, my JavaScript site!"
+  },
+  {
+    "id":7,
+    "date":"2016-01-18T22:05:09",
+    "modified":"2016-01-18T22:05:09",
+    "slug":"about",
+    "type":"page",
+    "title":"About",
+    "content":"A little about me!"
+  },
+  {
+    "id":8,
+    "date":"2016-01-18T22:05:09",
+    "modified":"2016-01-18T22:05:09",
+    "slug":"blog",
+    "type":"page",
+    "title":"Blog",
+    "content":"Please enjoy my posts"
+  },
+  {
+    "id":9,
+    "date":"2016-01-18T22:05:09",
+    "modified":"2016-01-18T22:05:09",
+    "slug":"contact",
+    "type":"page",
+    "title":"Contact",
+    "content":"Drop me a line with any questions :)"
+  }
+]

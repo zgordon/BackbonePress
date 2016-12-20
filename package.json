@@ -1,0 +1,45 @@
+{
+  "name": "backbonepress",
+  "version": "1.0.0",
+  "description": "A front end theme built with Backbone and powered by the WordPress REST API.  Customizer style editor available to edit posts and pages.",
+  "main": "src/js/app.js",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "browserify": "^13.1.1",
+    "eslint-config-es2015": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "tiny-lr": "^0.2.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgordon/BackbonePress.git"
+  },
+  "keywords": [
+    "Backbone",
+    "WordPress",
+    "REST",
+    "API"
+  ],
+  "author": "Zac Gordon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgordon/BackbonePress/issues"
+  },
+  "homepage": "https://github.com/zgordon/BackbonePress#readme"
+}
