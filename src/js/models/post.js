@@ -1,13 +1,5 @@
-const $ = require('jquery');
-const Backbone =  require('backbone');
-
-
-(function () {
-
-var Posts = Backbone.Model.extend({
+let Post = Backbone.Model.extend({
 
 });
 
-console.log( Posts );
-
-}());
+export default Post;

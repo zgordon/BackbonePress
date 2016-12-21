@@ -1,6 +1,7 @@
-const $ = require('jquery');
-const Backbone =  require('backbone');
+import $ from 'jquery';
+import  _ from 'underscore';
+import Backbone from 'backbone';
+import Post from './models/post'
 
-
-console.log( $, Backbone );
-console.log( 'Hello' );
+console.log( Post );
+// console.log( $, Backbone );
