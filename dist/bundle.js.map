@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../config-wrap-start-default.js","app.js"],"names":["define"],"mappings":"CAAA,WCCAA,OAAA,MAAA","file":"bundle.js","sourcesContent":["(function () {\n",";\ndefine(\"app\", function(){});\n\n"]}

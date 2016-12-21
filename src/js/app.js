@@ -1,7 +1,27 @@
-import $ from 'jquery';
-import  _ from 'underscore';
-import Backbone from 'backbone';
-import Post from './models/post'
+define([
+	'underscore',
+	'backbone',
+	'models/post',
+	'views/postListView',
+	function( _, Backbone, Post, postListView ){
 
-console.log( Post );
-// console.log( $, Backbone );
+		var init = function(){
+
+			var post = new Post( { title: "Hello World" } );
+
+			var postListView = new postListView({
+				el: '#pageContent',
+				model: post
+			});
+
+			postListView.render();
+
+		};
+
+		return {
+			init: init
+		};
+
+
+	}
+]);
